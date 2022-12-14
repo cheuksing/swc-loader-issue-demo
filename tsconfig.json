@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "target": "esnext",
+    "moduleResolution": "node",
+    "allowJs": true,
+    "strict": false,
+    "esModuleInterop": true,
+    "jsx": "react",
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "isolatedModules": true,
+    "resolveJsonModule": true,
+    "baseUrl": "src",
+    "paths": {
+      "@services/*": ["services/*"],
+      "@i18n": ["i18n.ts"]
+    }
+  },
+  "include": ["src/**/*"]
+}

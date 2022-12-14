@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json.schemastore.org/swcrc",
+  "jsc": {
+    "baseUrl": "wrong",
+    "paths": {
+      "@services/*": ["services/*"],
+      "@i18n": ["i18n"]
+    },
+    "parser": {
+      "syntax": "typescript",
+      "tsx": true,
+      "dynamicImport": true
+    }
+  },
+  "module": {
+    "type": "commonjs"
+  },
+  "minify": false
+}
